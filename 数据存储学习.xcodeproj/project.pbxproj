@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9033F94C1DB5B3D20099D00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F94B1DB5B3D20099D00B /* AppDelegate.swift */; };
+		9033F94E1DB5B3D20099D00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F94D1DB5B3D20099D00B /* ViewController.swift */; };
+		9033F9511DB5B3D20099D00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033F94F1DB5B3D20099D00B /* Main.storyboard */; };
+		9033F9531DB5B3D30099D00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9033F9521DB5B3D30099D00B /* Assets.xcassets */; };
+		9033F9561DB5B3D30099D00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9033F9541DB5B3D30099D00B /* LaunchScreen.storyboard */; };
+		9033F95E1DB5CC9B0099D00B /* Student1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F95D1DB5CC9B0099D00B /* Student1.swift */; };
+		9033F9611DB5D1650099D00B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9033F9601DB5D1650099D00B /* libsqlite3.tbd */; };
+		9033F9681DB6227A0099D00B /* CoreDataTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9033F9661DB6227A0099D00B /* CoreDataTest.xcdatamodeld */; };
+		9033F98B1DB627120099D00B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F98A1DB627120099D00B /* CoreDataStack.swift */; };
+		9033F9961DB62DEF0099D00B /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F9941DB62DEF0099D00B /* Student+CoreDataClass.swift */; };
+		9033F9971DB62DEF0099D00B /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9033F9951DB62DEF0099D00B /* Student+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9033F9481DB5B3D20099D00B /* 数据存储学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据存储学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9033F94B1DB5B3D20099D00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9033F94D1DB5B3D20099D00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9033F9501DB5B3D20099D00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9033F9521DB5B3D30099D00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9033F9551DB5B3D30099D00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9033F9571DB5B3D30099D00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9033F95D1DB5CC9B0099D00B /* Student1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student1.swift; sourceTree = "<group>"; };
+		9033F9601DB5D1650099D00B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9033F9621DB5D1BD0099D00B /* 数据存储学习-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "数据存储学习-Bridging-Header.h"; sourceTree = "<group>"; };
+		9033F9671DB6227A0099D00B /* CoreDataTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest.xcdatamodel; sourceTree = "<group>"; };
+		9033F98A1DB627120099D00B /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		9033F9941DB62DEF0099D00B /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataClass.swift"; path = "../Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9033F9951DB62DEF0099D00B /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Student+CoreDataProperties.swift"; path = "../Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9033F9451DB5B3D20099D00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9033F9611DB5D1650099D00B /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9033F93F1DB5B3D20099D00B = {
+			isa = PBXGroup;
+			children = (
+				9033F94A1DB5B3D20099D00B /* 数据存储学习 */,
+				9033F9491DB5B3D20099D00B /* Products */,
+				9033F95F1DB5D1650099D00B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9033F9491DB5B3D20099D00B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9033F9481DB5B3D20099D00B /* 数据存储学习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9033F94A1DB5B3D20099D00B /* 数据存储学习 */ = {
+			isa = PBXGroup;
+			children = (
+				9033F94B1DB5B3D20099D00B /* AppDelegate.swift */,
+				9033F95D1DB5CC9B0099D00B /* Student1.swift */,
+				9033F94D1DB5B3D20099D00B /* ViewController.swift */,
+				9033F98A1DB627120099D00B /* CoreDataStack.swift */,
+				9033F9941DB62DEF0099D00B /* Student+CoreDataClass.swift */,
+				9033F9951DB62DEF0099D00B /* Student+CoreDataProperties.swift */,
+				9033F94F1DB5B3D20099D00B /* Main.storyboard */,
+				9033F9521DB5B3D30099D00B /* Assets.xcassets */,
+				9033F9541DB5B3D30099D00B /* LaunchScreen.storyboard */,
+				9033F9571DB5B3D30099D00B /* Info.plist */,
+				9033F9621DB5D1BD0099D00B /* 数据存储学习-Bridging-Header.h */,
+				9033F9661DB6227A0099D00B /* CoreDataTest.xcdatamodeld */,
+			);
+			path = "数据存储学习";
+			sourceTree = "<group>";
+		};
+		9033F95F1DB5D1650099D00B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9033F9601DB5D1650099D00B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9033F9471DB5B3D20099D00B /* 数据存储学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9033F95A1DB5B3D30099D00B /* Build configuration list for PBXNativeTarget "数据存储学习" */;
+			buildPhases = (
+				9033F9441DB5B3D20099D00B /* Sources */,
+				9033F9451DB5B3D20099D00B /* Frameworks */,
+				9033F9461DB5B3D20099D00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数据存储学习";
+			productName = "数据存储学习";
+			productReference = 9033F9481DB5B3D20099D00B /* 数据存储学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9033F9401DB5B3D20099D00B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = huatengIOT;
+				TargetAttributes = {
+					9033F9471DB5B3D20099D00B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2Z7NL663JA;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9033F9431DB5B3D20099D00B /* Build configuration list for PBXProject "数据存储学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9033F93F1DB5B3D20099D00B;
+			productRefGroup = 9033F9491DB5B3D20099D00B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9033F9471DB5B3D20099D00B /* 数据存储学习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9033F9461DB5B3D20099D00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9033F9561DB5B3D30099D00B /* LaunchScreen.storyboard in Resources */,
+				9033F9531DB5B3D30099D00B /* Assets.xcassets in Resources */,
+				9033F9511DB5B3D20099D00B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9033F9441DB5B3D20099D00B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9033F98B1DB627120099D00B /* CoreDataStack.swift in Sources */,
+				9033F9961DB62DEF0099D00B /* Student+CoreDataClass.swift in Sources */,
+				9033F9681DB6227A0099D00B /* CoreDataTest.xcdatamodeld in Sources */,
+				9033F94E1DB5B3D20099D00B /* ViewController.swift in Sources */,
+				9033F95E1DB5CC9B0099D00B /* Student1.swift in Sources */,
+				9033F94C1DB5B3D20099D00B /* AppDelegate.swift in Sources */,
+				9033F9971DB62DEF0099D00B /* Student+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9033F94F1DB5B3D20099D00B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9033F9501DB5B3D20099D00B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9033F9541DB5B3D30099D00B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9033F9551DB5B3D30099D00B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9033F9581DB5B3D30099D00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9033F9591DB5B3D30099D00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9033F95B1DB5B3D30099D00B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2Z7NL663JA;
+				INFOPLIST_FILE = "数据存储学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huatengIOT.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "数据存储学习/数据存储学习-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9033F95C1DB5B3D30099D00B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2Z7NL663JA;
+				INFOPLIST_FILE = "数据存储学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huatengIOT.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "数据存储学习/数据存储学习-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9033F9431DB5B3D20099D00B /* Build configuration list for PBXProject "数据存储学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9033F9581DB5B3D30099D00B /* Debug */,
+				9033F9591DB5B3D30099D00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9033F95A1DB5B3D30099D00B /* Build configuration list for PBXNativeTarget "数据存储学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9033F95B1DB5B3D30099D00B /* Debug */,
+				9033F95C1DB5B3D30099D00B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9033F9661DB6227A0099D00B /* CoreDataTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9033F9671DB6227A0099D00B /* CoreDataTest.xcdatamodel */,
+			);
+			currentVersion = 9033F9671DB6227A0099D00B /* CoreDataTest.xcdatamodel */;
+			path = CoreDataTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9033F9401DB5B3D20099D00B /* Project object */;
+}
